@@ -16,6 +16,13 @@
   --status-text: #aaa;
 
   --heading-accent: #4cafef;
+
+  /* === TEMP === */
+
+  --footer-bg: #0b0b0b;
+  --footer-text: white;
+  --footer-accent: #4cafef;
+  --footer-muted: #aaa;
 }
 
 .contactme-section {
@@ -95,4 +102,49 @@
 .contact-info h3 {
   margin-bottom: 10px;
   color: var(--heading-accent);
+}
+
+/* === TEMP === */
+
+.site-footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.footer-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: var(--footer-accent);
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.footer-contact p {
+  margin: 0;
+}
+
+.footer-note {
+  margin-top: 25px;
+  font-size: 12px;
+  color: var(--footer-muted);
+  opacity: 0.7;
+}
+
+.footer-contact a {
+  color: var(--footer-text);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-contact a:hover {
+  color: var(--footer-accent);
 }
