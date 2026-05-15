@@ -1,0 +1,164 @@
+:root {
+  --bg-main: #0f0f0f;
+  --bg-card: #1c1c1c;
+
+  --text-primary: #ffffff;
+  --text-secondary: #ccc;
+  --text-muted: #888;
+
+  --accent-color: #4cafef;
+}
+
+.highlighted-projects-section {
+  padding: 60px 20px;
+
+  background: var(--bg-main);
+
+  color: var(--text-primary);
+}
+
+.highlighted-projects-grid {
+  max-width: 1300px;
+
+  margin: 40px auto 0;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 25px;
+}
+
+.highlight-card {
+  background: var(--bg-card);
+
+  border-radius: 14px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(255,255,255,0.05);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-6px);
+
+  border-color: rgba(76, 175, 239, 0.4);
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.35);
+}
+
+.highlight-card img {
+  width: 100%;
+  height: 220px;
+
+  object-fit: cover;
+
+  display: block;
+
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.highlight-content {
+  padding: 20px;
+}
+
+.highlight-tag {
+  display: inline-block;
+
+  margin-bottom: 14px;
+
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  background: rgba(76, 175, 239, 0.15);
+
+  color: var(--accent-color);
+
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.5px;
+}
+
+.highlight-content h3 {
+  margin: 0 0 12px;
+
+  font-size: 1.3rem;
+
+  color: var(--text-primary);
+
+  line-height: 1.35;
+}
+
+.highlight-content p {
+  margin: 0;
+
+  color: var(--text-secondary);
+
+  font-size: 0.95rem;
+
+  line-height: 1.7;
+}
+
+.highlight-skills {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 18px;
+}
+
+.highlight-skills span {
+  padding: 6px 10px;
+
+  border-radius: 8px;
+
+  background: #252525;
+
+  color: var(--text-muted);
+
+  font-size: 0.8rem;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.highlight-card:hover .highlight-skills span {
+  background: rgba(76, 175, 239, 0.12);
+
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+
+  .highlighted-projects-section {
+    padding: 50px 20px;
+  }
+
+  .highlighted-projects-grid {
+    gap: 20px;
+  }
+
+  .highlight-card img {
+    height: 200px;
+  }
+
+  .highlight-content {
+    padding: 18px;
+  }
+
+  .highlight-content h3 {
+    font-size: 1.15rem;
+  }
+}

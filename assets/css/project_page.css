@@ -1,0 +1,338 @@
+:root {
+
+  --bg-main: #0f0f0f;
+  --bg-card: #1c1c1c;
+
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted: #888888;
+
+  --accent-color: #4cafef;
+}
+
+body {
+
+  background: var(--bg-main);
+
+  color: var(--text-primary);
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+}
+
+.project-page {
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 40px 20px 100px;
+}
+
+.project-hero {
+
+  margin-bottom: 50px;
+}
+
+.back-button {
+
+  display: inline-block;
+
+  margin-bottom: 25px;
+
+  color: var(--accent-color);
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: transform 0.2s ease;
+}
+
+.back-button:hover {
+
+  transform: translateX(-5px);
+}
+
+.project-hero h1 {
+
+  font-size: 3rem;
+
+  margin-bottom: 10px;
+}
+
+.project-meta {
+
+  display: flex;
+
+  gap: 20px;
+
+  color: var(--text-secondary);
+
+  margin-bottom: 20px;
+}
+
+.project-tags {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.tag {
+
+  background: #252525;
+
+  padding: 8px 14px;
+
+  border-radius: 30px;
+
+  font-size: 0.9rem;
+
+  color: var(--accent-color);
+}
+
+.project-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 30px;
+}
+
+.project-image-card,
+.project-description-card,
+.project-details-card,
+.project-gallery-card,
+.related-experience-card {
+
+  background: var(--bg-card);
+
+  border-radius: 14px;
+
+  padding: 30px;
+}
+
+.project-description-card h2,
+.project-details-card h2,
+.project-gallery-card h2,
+.related-experience-card h2 {
+
+  margin-top: 0;
+
+  color: var(--accent-color);
+}
+
+#project-main-image {
+
+  width: 100%;
+
+  max-height: 500px;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+}
+
+#project-details-list {
+
+  padding-left: 20px;
+}
+
+#project-details-list li {
+
+  margin-bottom: 12px;
+
+  color: var(--text-secondary);
+}
+
+.project-gallery {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(240px, 1fr));
+
+  gap: 20px;
+}
+
+.project-gallery img {
+
+  width: 100%;
+
+  border-radius: 12px;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.project-gallery img:hover {
+
+  transform: scale(1.03);
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.4);
+}
+
+.related-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.carousel-buttons {
+
+  display: flex;
+
+  gap: 10px;
+}
+
+.carousel-buttons button {
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: #252525;
+
+  color: white;
+
+  font-size: 1.1rem;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.carousel-buttons button:hover {
+
+  background: var(--accent-color);
+
+  transform: scale(1.08);
+}
+
+.experience-carousel-wrapper {
+
+  overflow: hidden;
+}
+
+.experience-carousel {
+
+  display: flex;
+
+  gap: 20px;
+
+  overflow-x: auto;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+}
+
+.experience-carousel::-webkit-scrollbar {
+
+  display: none;
+}
+
+.experience-card {
+
+  min-width: 300px;
+
+  max-width: 300px;
+
+  background: #252525;
+
+  border-radius: 14px;
+
+  text-decoration: none;
+
+  color: white;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.experience-card:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.35);
+}
+
+.experience-card-content {
+
+  padding: 20px;
+}
+
+.experience-card-content h3 {
+
+  margin-top: 0;
+
+  color: var(--accent-color);
+}
+
+.experience-card-content p {
+
+  color: var(--text-secondary);
+
+  font-size: 0.92rem;
+}
+
+.experience-tags {
+
+  margin-top: 14px;
+
+  color: var(--text-muted);
+
+  font-size: 0.8rem;
+}
+
+.not-found {
+
+  text-align: center;
+
+  padding: 100px 20px;
+}
+
+@media (max-width: 768px) {
+
+  .project-hero h1 {
+
+    font-size: 2rem;
+  }
+
+  .project-meta {
+
+    flex-direction: column;
+
+    gap: 8px;
+  }
+
+  .project-image-card,
+  .project-description-card,
+  .project-details-card,
+  .project-gallery-card,
+  .related-experience-card {
+
+    padding: 20px;
+  }
+}

@@ -1,0 +1,267 @@
+:root {
+  --bg-main: #0f0f0f;
+  --bg-card: #1c1c1c;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted: #888888;
+  --accent-color: #4cafef;
+}
+
+body {
+  background: var(--bg-main);
+  color: var(--text-primary);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.experience-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 100px;
+}
+
+.experience-hero {
+  margin-bottom: 50px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.back-button:hover {
+  transform: translateX(-5px);
+}
+
+.experience-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.experience-meta {
+  display: flex;
+  gap: 20px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background: #252525;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-description-card,
+.experience-details-card,
+.experience-gallery-card {
+  background: var(--bg-card);
+  border-radius: 14px;
+  padding: 30px;
+}
+
+.experience-description-card h2,
+.experience-details-card h2,
+.experience-gallery-card h2 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+#experience-details-list {
+  padding-left: 20px;
+}
+
+#experience-details-list li {
+  margin-bottom: 12px;
+  color: var(--text-secondary);
+}
+
+.experience-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.experience-gallery img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.experience-gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.not-found {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.not-found h1 {
+  color: var(--accent-color);
+}
+
+.related-projects-card {
+  background: var(--bg-card);
+  border-radius: 14px;
+  padding: 30px;
+  margin-top: 25px;
+}
+
+.related-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.related-header h2 {
+  margin: 0;
+  color: var(--accent-color);
+}
+
+.carousel-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-buttons button {
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #252525;
+  color: white;
+
+  font-size: 1.1rem;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.carousel-buttons button:hover {
+  background: var(--accent-color);
+  transform: scale(1.08);
+}
+
+.projects-carousel-wrapper {
+  overflow: hidden;
+}
+
+.projects-carousel {
+
+  display: flex;
+  gap: 20px;
+
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+}
+
+.projects-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.project-card {
+
+  min-width: 300px;
+  max-width: 300px;
+
+  background: #252525;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+
+  text-decoration: none;
+
+  color: white;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.project-card img {
+
+  width: 100%;
+  height: 180px;
+
+  object-fit: cover;
+}
+
+.project-card-content {
+  padding: 18px;
+}
+
+.project-card-content h3 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.project-card-content p {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+}
+
+.project-tags {
+
+  margin-top: 14px;
+
+  color: var(--text-muted);
+
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+
+  .experience-hero h1 {
+    font-size: 2rem;
+  }
+
+  .experience-meta {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .experience-description-card,
+  .experience-details-card,
+  .experience-gallery-card {
+    padding: 20px;
+  }
+}

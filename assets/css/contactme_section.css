@@ -1,0 +1,98 @@
+:root {
+  --contact-bg: #0b0b0b;
+  --contact-text: white;
+
+  --form-bg: #1c1c1c;
+
+  --label-text: #ccc;
+
+  --input-bg: #2a2a2a;
+  --input-text: white;
+
+  --button-bg: #4cafef;
+  --button-text: black;
+  --button-hover-bg: #3aa0e0;
+
+  --status-text: #aaa;
+
+  --heading-accent: #4cafef;
+}
+
+.contactme-section {
+  padding: 60px 20px;
+  background: var(--contact-bg);
+  color: var(--contact-text);
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  background: var(--form-bg);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: var(--label-text);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: var(--input-bg);
+  color: var(--input-text);
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 12px;
+  background: var(--button-bg);
+  border: none;
+  border-radius: 6px;
+  color: var(--button-text);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contact-btn:hover {
+  background: var(--button-hover-bg);
+}
+
+#form-status {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--status-text);
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+  color: var(--heading-accent);
+}
