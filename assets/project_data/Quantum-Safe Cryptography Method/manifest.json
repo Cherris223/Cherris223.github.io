@@ -1,0 +1,29 @@
+{
+  "gallery": [
+    {
+      "type": "pdf",
+      "src": "Lattice Communicator_Jones Seth.pdf",
+      "title": "Lattice Communicator Jones Seth"
+    },
+    {
+      "type": "file",
+      "src": "LatticeDemo.py",
+      "title": "Latticedemo"
+    },
+    {
+      "type": "file",
+      "src": "LatticePlots.py",
+      "title": "Latticeplots"
+    },
+    {
+      "type": "file",
+      "src": "LatticeTests.py",
+      "title": "Latticetests"
+    },
+    {
+      "type": "pdf",
+      "src": "Power Point.pdf",
+      "title": "Power Point"
+    }
+  ]
+}

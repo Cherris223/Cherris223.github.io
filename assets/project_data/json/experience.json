@@ -1,0 +1,576 @@
+[
+  {
+    "title": "Photovoltaic Energy Systems",
+    "company": "Graduate University Project Lab (EE 504 Co-convened)",
+    "date": "2026",
+    "description": "Graduate-level course covering photovoltaic (PV) energy systems, including power converter configurations, safety standards and regulations, and the design, modeling, analysis, and control of DC-DC and DC-AC converters. Topics include voltage regulation, digital control techniques for single-phase and three-phase PV systems, maximum power point tracking (MPPT), battery energy storage integration, standalone and grid-connected PV operation, transient and steady-state analysis, and computer-based simulation of PV systems.",
+    "details": [
+      "Design and analysis of photovoltaic energy systems",
+      "DC-DC and DC-AC power converter configurations",
+      "Maximum power point tracking (MPPT)",
+      "Battery energy storage integration",
+      "Grid-connected and standalone PV operation",
+      "Digital control for single-phase and three-phase systems",
+      "Transient and steady-state system analysis",
+      "Computer-based PV simulation techniques"
+    ],
+    "tags": [
+      "photovoltaic",
+      "PV systems",
+      "power electronics",
+      "DC-DC converters",
+      "DC-AC inverters",
+      "MPPT",
+      "grid-connected systems",
+      "battery energy storage",
+      "simulation"
+    ]
+  },
+  {
+    "title": "Electric Drives",
+    "company": "Graduate University Project Lab (EE 503 Co-convened)",
+    "date": "2026",
+    "description": "Graduate-level course on AC/DC electric machine drives for speed and position control, integrating electric machines, power electronics, and control systems. Covers power electronic converters for DC and AC motor drives, electromechanical energy conversion, and the design, construction, operation, and control of DC, induction, permanent magnet, stepper, and switched reluctance machines. Includes feedback controller design for motor drive systems and applications in electric transportation, robotics, industrial process control, and energy efficiency.",
+    "details": [
+      "AC and DC motor drive systems",
+      "Power electronic converters for machine control",
+      "Design and control of electric machines",
+      "Feedback controller design for drives",
+      "Electromechanical energy conversion",
+      "Applications in robotics and transportation",
+      "Industrial automation and process control",
+      "Energy-efficient motor systems"
+    ],
+    "tags": [
+      "electric drives",
+      "motor control",
+      "power electronics",
+      "DC motors",
+      "induction motors",
+      "permanent magnet motors",
+      "stepper motors",
+      "switched reluctance motors",
+      "control systems",
+      "electric transportation"
+    ]
+  },
+  {
+    "title": "Malware Analysis",
+    "company": "University Project Lab",
+    "date": "2026",
+    "description": "Introduction to reverse engineering techniques for malware identification, classification, and analysis using disassembly, virtual machines, static analysis, and dynamic analysis methods. Focuses on understanding malicious software behavior through practical investigation in controlled environments.",
+    "details": [
+      "Reverse engineering of malicious software",
+      "Static and dynamic malware analysis",
+      "Disassembly and debugging techniques",
+      "Virtual machine investigation environments",
+      "Malware classification and identification",
+      "Behavioral analysis of threats",
+      "Hands-on cybersecurity investigation methods"
+    ],
+    "tags": [
+      "malware analysis",
+      "reverse engineering",
+      "cybersecurity",
+      "static analysis",
+      "dynamic analysis",
+      "disassembly",
+      "virtual machines",
+      "threat analysis"
+    ]
+  },
+  {
+    "title": "Computer Architecture",
+    "company": "University Project Lab (EE 514 Co-convened)",
+    "date": "2025",
+    "description": "Study of processor architecture taxonomies and system building blocks, including instruction set architectures, processors, memory hierarchies, I/O systems, computer buses, and peripheral devices. Covers system-level design concepts and applications to microcontrollers in embedded and real-time systems, with attention to power management and cybersecurity considerations. Includes discussion of fundamental physical and theoretical limits on processor performance and design.",
+    "details": [
+      "Processor and instruction set architectures",
+      "Memory hierarchy and I/O system design",
+      "Embedded and real-time system applications",
+      "Microcontroller-based system integration",
+      "Computer buses and peripheral interfaces",
+      "Power management considerations",
+      "Cybersecurity in hardware systems",
+      "Performance and scalability limitations"
+    ],
+    "tags": [
+      "computer architecture",
+      "processor design",
+      "instruction set architecture",
+      "embedded systems",
+      "microcontrollers",
+      "memory systems",
+      "I/O systems",
+      "computer buses",
+      "power management",
+      "cybersecurity"
+    ]
+  },
+  {
+    "title": "Fundamentals of Electromagnetics",
+    "company": "University Project Lab",
+    "date": "2024",
+    "description": "Study of static electric and magnetic fields, time-varying electromagnetic fields, and Maxwell’s equations, with emphasis on RF circuit applications. Covers RF circuit components, transmission line behavior, impedance matching, and wave propagation concepts as applied to high-frequency systems. Includes applications to electromagnetic interference (EMI) and electromagnetic compatibility (EMC), and their impact on RF circuit design and performance.",
+    "details": [
+      "Electric and magnetic field theory",
+      "Maxwell’s equations and wave behavior",
+      "RF circuit analysis and applications",
+      "Transmission line characteristics",
+      "Impedance matching techniques",
+      "Wave propagation in high-frequency systems",
+      "Electromagnetic interference (EMI)",
+      "Electromagnetic compatibility (EMC)"
+    ],
+    "tags": [
+      "electromagnetics",
+      "RF circuits",
+      "Maxwell equations",
+      "transmission lines",
+      "impedance matching",
+      "wave propagation",
+      "EMI",
+      "EMC",
+      "high frequency systems"
+    ]
+  },
+  {
+    "title": "Signals and Systems",
+    "company": "University Project Lab",
+    "date": "2025",
+    "description": "Study of continuous-time and discrete-time signal modeling and linear system analysis. Covers Fourier analysis and frequency response, sampling theory, and filtering techniques. Includes Laplace and Z-transform methods, transfer functions, and system behavior characterization in both time and frequency domains.",
+    "details": [
+      "Continuous and discrete signal analysis",
+      "Linear time-invariant system modeling",
+      "Fourier analysis and frequency response",
+      "Sampling and filtering techniques",
+      "Laplace and Z-transform methods",
+      "Transfer function analysis",
+      "Time-domain and frequency-domain behavior"
+    ],
+    "tags": [
+      "signals and systems",
+      "Fourier analysis",
+      "frequency response",
+      "linear systems",
+      "sampling",
+      "filtering",
+      "Laplace transform",
+      "Z transform",
+      "transfer functions",
+      "signal processing"
+    ]
+  },
+  {
+    "title": "Intermediate Programming (C Language)",
+    "company": "University Project Lab",
+    "date": "2024",
+    "description": "Intermediate-level programming course focused on software development using the C programming language. Covers program design principles, algorithm development, and fundamental data structures. Emphasizes structured programming, problem-solving techniques, and efficient implementation of algorithms in C.",
+    "details": [
+      "Software development using C",
+      "Algorithm design and implementation",
+      "Core data structure concepts",
+      "Structured programming techniques",
+      "Problem-solving methodologies",
+      "Efficient low-level programming practices",
+      "Program organization and debugging"
+    ],
+    "tags": [
+      "C programming",
+      "program design",
+      "algorithms",
+      "data structures",
+      "software development",
+      "structured programming",
+      "problem solving"
+    ]
+  },
+  {
+    "title": "Web Programming",
+    "company": "University Project Lab",
+    "date": "2024",
+    "description": "Course focused on web programming with emphasis on creating interactive and dynamic websites. Covers core front-end technologies including HTML, CSS, and JavaScript, as well as client-server architecture and web application development principles.",
+    "details": [
+      "Interactive website development",
+      "Frontend development with HTML, CSS, and JavaScript",
+      "Dynamic web application concepts",
+      "Client-server architecture fundamentals",
+      "Responsive and interactive UI design",
+      "Core web development workflows"
+    ],
+    "tags": [
+      "web programming",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "frontend development",
+      "client-server architecture",
+      "web development",
+      "interactive websites"
+    ]
+  },
+  {
+    "title": "Multi-Agent Systems",
+    "company": "University Project Lab",
+    "date": "2025",
+    "description": "Study of agent-based AI systems with focus on reinforcement learning, game theory, and complex systems. Explores how autonomous agents learn, make decisions, and interact within shared environments. Emphasizes coordination strategies among multiple agents and how local interactions can lead to emergent global behavior in robotic and intelligent systems.",
+    "details": [
+      "Agent-based artificial intelligence systems",
+      "Reinforcement learning concepts",
+      "Game theory and strategic interaction",
+      "Coordination between autonomous agents",
+      "Emergent behavior in complex systems",
+      "Decision-making in shared environments",
+      "Applications in robotics and intelligent systems"
+    ],
+    "tags": [
+      "multi-agent systems",
+      "reinforcement learning",
+      "game theory",
+      "complex systems",
+      "autonomous systems",
+      "robotics",
+      "emergent behavior",
+      "AI agents",
+      "decision making",
+      "coordination"
+    ]
+  },
+  {
+    "title": "Hardware Public-Key Cryptography",
+    "company": "University Project Lab",
+    "date": "2025",
+    "description": "Study of modern public-key cryptography (PKC) with emphasis on hardware-oriented implementations and post-quantum cryptography. Covers arithmetic in Galois fields, elliptic curve cryptography, and emerging post-quantum schemes. Explores practical applications of PKC in securing data such as text, images, and video. Includes hands-on design work involving implementation methodologies and hardware platforms for cryptographic systems.",
+    "details": [
+      "Modern public-key cryptography techniques",
+      "Hardware-oriented cryptographic implementation",
+      "Post-quantum cryptography concepts",
+      "Elliptic curve cryptography (ECC)",
+      "Galois field arithmetic",
+      "Secure data encryption applications",
+      "Hardware platform integration for PKC systems"
+    ],
+    "tags": [
+      "public-key cryptography",
+      "post-quantum cryptography",
+      "elliptic curve cryptography",
+      "Galois fields",
+      "hardware security",
+      "data encryption",
+      "cryptographic systems",
+      "information security",
+      "hardware implementation"
+    ]
+  },
+  {
+    "title": "Internet of Things Design",
+    "company": "University Project Lab",
+    "date": "2024",
+    "description": "Study of the theory, design, and applications of microprocessors and microprocessor-based systems with emphasis on Internet of Things (IoT) technologies. Covers programming techniques for microcomputers, system integration, and the role of commercial microprocessors and semiconductor memory systems in embedded IoT device development. Includes design and implementation considerations for connected embedded systems.",
+    "details": [
+      "IoT system architecture and design",
+      "Microprocessor-based embedded systems",
+      "Programming for microcomputers",
+      "Connected device integration",
+      "Embedded firmware development",
+      "Semiconductor memory applications",
+      "System-level IoT implementation strategies"
+    ],
+    "tags": [
+      "internet of things",
+      "IoT",
+      "microprocessors",
+      "embedded systems",
+      "microcomputers",
+      "firmware programming",
+      "semiconductor memory",
+      "system design",
+      "connected devices",
+      "embedded computing"
+    ]
+  },
+  {
+    "title": "Fundamentals of Electronic Circuits",
+    "company": "University Project Lab",
+    "date": "2023",
+    "description": "Comprehensive study of analysis and design of linear and nonlinear electronic circuits using both discrete components and integrated circuits. Covers device modeling, circuit behavior, and practical design methodologies, with strong emphasis on hands-on laboratory experimentation and computer-aided simulation. Focuses on building intuition for real-world circuit performance, testing, and iterative design optimization across a wide range of electronic systems.",
+    "details": [
+      "Analysis of linear and nonlinear circuits",
+      "Discrete and integrated circuit design",
+      "Electronic device modeling techniques",
+      "Hands-on laboratory experimentation",
+      "Computer-aided circuit simulation",
+      "Real-world circuit testing and validation",
+      "Iterative design optimization methods"
+    ],
+    "tags": [
+      "electronic circuits",
+      "circuit design",
+      "analog electronics",
+      "digital electronics",
+      "device modeling",
+      "IC design",
+      "circuit simulation",
+      "laboratory experiments",
+      "nonlinear circuits",
+      "linear circuits"
+    ]
+  },
+  {
+    "title": "Computer Engineering",
+    "company": "University Project Lab",
+    "date": "2026",
+    "description": "Comprehensive study of the organization, architecture, and hardware design of digital and computer systems. Covers digital logic design, computer architecture principles, and implementation of computing systems using programmable logic devices. Includes hands-on laboratory work involving hardware description languages, simulation, and physical or virtual prototyping of digital circuits. Emphasizes understanding system-level design, performance trade-offs, and integration of hardware and software components in modern computing systems. Includes 3 hours of lecture and 3 hours of laboratory work. Letter grade only.",
+    "details": [
+      "Digital system organization and architecture",
+      "Hardware design using programmable logic",
+      "Computer architecture fundamentals",
+      "FPGA and HDL-based system implementation",
+      "Simulation and hardware prototyping",
+      "Integration of hardware and software systems",
+      "Performance trade-off analysis",
+      "Hands-on laboratory-based digital design"
+    ],
+    "tags": [
+      "computer engineering",
+      "computer architecture",
+      "digital systems",
+      "digital design",
+      "hardware design",
+      "programmable logic",
+      "FPGA",
+      "VHDL",
+      "Verilog",
+      "system design"
+    ]
+  },
+  {
+    "title": "Electronics",
+    "company": "University Project Lab",
+    "date": "2026",
+    "description": "In-depth study of electronic device applications including diodes, BJTs, and MOSFETs in both analog and digital circuit design. Covers transient and s-domain analysis techniques, including frequency response characterization using Bode plots. Emphasizes practical circuit analysis, design intuition, and validation through laboratory experimentation and computer-based simulation tools.",
+    "details": [
+      "Analog and digital circuit applications",
+      "Diode, BJT, and MOSFET operation",
+      "Transient and s-domain circuit analysis",
+      "Frequency response and Bode plots",
+      "Practical electronic circuit design",
+      "Laboratory validation and testing",
+      "Computer-based circuit simulation"
+    ],
+    "tags": [
+      "electronics",
+      "diodes",
+      "BJTs",
+      "MOSFETs",
+      "analog circuits",
+      "digital circuits",
+      "Bode plots",
+      "s-domain analysis",
+      "circuit simulation",
+      "transistor circuits"
+    ]
+  },
+  {
+    "title": "Computing Tools III",
+    "company": "University Project Lab",
+    "date": "2026",
+    "description": "Advanced course focused on modern development tools used in computer science, informatics, and engineering workflows. Covers deployment of remote services, advanced project management systems, and automation through shell scripting. Emphasizes practical proficiency with development environments, tooling pipelines, and productivity-enhancing engineering practices used in professional software and systems development.",
+    "details": [
+      "Modern software development toolchains",
+      "Remote service deployment workflows",
+      "Project management and collaboration systems",
+      "Shell scripting and automation",
+      "Engineering productivity practices",
+      "Development environment configuration",
+      "DevOps-oriented workflow management"
+    ],
+    "tags": [
+      "development tools",
+      "remote services",
+      "project management",
+      "shell scripting",
+      "automation",
+      "software engineering tools",
+      "DevOps",
+      "system administration",
+      "engineering workflows"
+    ]
+  },
+  {
+    "title": "Mechanical Design And CAD Prototyping",
+    "company": "University Engineering Projects",
+    "date": "2024–2026",
+    "description": "Hands-on mechanical design and prototyping of functional systems and consumer-style devices using CAD modeling, mechanical principles, and iterative design validation. Focus on real-world usability, assembly constraints, and manufacturability.",
+    "details": [
+      "3D CAD modeling and mechanical assembly design",
+      "Development of functional mechanical systems (gears, locks, holders, clock mechanisms)",
+      "Design for manufacturability and ergonomics",
+      "Kinematic and structural design of interactive mechanical devices",
+      "Rapid prototyping and iteration of physical concepts"
+    ],
+    "tags": [
+      "CAD",
+      "mechanical design",
+      "product design",
+      "prototyping",
+      "3D modeling",
+      "mechanisms",
+      "ergonomics"
+    ]
+  },
+  {
+    "title": "Embedded Systems And IoT Development",
+    "company": "University Engineering Projects",
+    "date": "2025–2026",
+    "description": "Design and simulation of embedded systems and IoT-enabled devices for real-time sensing, monitoring, and control applications. Focus on system integration between hardware sensors, microcontrollers, and software analytics.",
+    "details": [
+      "IoT system architecture and sensor integration",
+      "Real-time environmental monitoring systems",
+      "Microcontroller-based embedded system design",
+      "Data acquisition and communication systems",
+      "Firmware-level system integration and testing"
+    ],
+    "tags": [
+      "IoT",
+      "embedded systems",
+      "microcontrollers",
+      "sensors",
+      "firmware",
+      "real-time systems",
+      "system integration"
+    ]
+  },
+  {
+    "title": "Power Electronics And Electric Drive Systems",
+    "company": "University Graduate Engineering Labs",
+    "date": "2026",
+    "description": "Modeling, simulation, and control of power electronic systems and electric machine drives for efficient energy conversion and motor control applications.",
+    "details": [
+      "DC-DC and DC-AC converter design and simulation",
+      "Motor control techniques including FOC and DTC",
+      "Electric machine drive system modeling",
+      "Renewable energy integration (PV and battery systems)",
+      "Performance optimization of power conversion systems"
+    ],
+    "tags": [
+      "power electronics",
+      "motor control",
+      "FOC",
+      "DTC",
+      "inverters",
+      "converters",
+      "electric drives",
+      "renewable energy"
+    ]
+  },
+  {
+    "title": "Cybersecurity, Malware Analysis And Cryptography",
+    "company": "University Security And Systems Labs",
+    "date": "2026",
+    "description": "Study and implementation of cybersecurity techniques including malware reverse engineering and modern cryptographic systems with emphasis on secure computing and quantum-resistant methods.",
+    "details": [
+      "Static and dynamic malware analysis",
+      "Reverse engineering using debugging tools and VMs",
+      "Quantum-safe and post-quantum cryptography concepts",
+      "Hardware-oriented cryptographic system design",
+      "Threat behavior analysis and classification"
+    ],
+    "tags": [
+      "cybersecurity",
+      "malware analysis",
+      "cryptography",
+      "reverse engineering",
+      "post-quantum crypto",
+      "threat analysis",
+      "security systems"
+    ]
+  },
+  {
+    "title": "Software Development And Systems Programming",
+    "company": "University Computing Projects",
+    "date": "2026",
+    "description": "Software engineering and systems programming using low-level and web-based technologies with focus on algorithms, structured programming, and interactive applications.",
+    "details": [
+      "C-based systems programming and algorithm design",
+      "Frontend web development (HTML, CSS, JavaScript)",
+      "Interactive application and UI development",
+      "Data structures and performance optimization",
+      "Software architecture and debugging practices"
+    ],
+    "tags": [
+      "software engineering",
+      "C programming",
+      "web development",
+      "algorithms",
+      "data structures",
+      "frontend",
+      "systems programming"
+    ]
+  },
+  {
+    "title": "AI Systems And Multi-Agent Modeling",
+    "company": "University AI Research Projects",
+    "date": "2026",
+    "description": "Development and simulation of intelligent systems including self-learning agents and multi-agent environments with emphasis on emergent behavior and adaptive decision-making.",
+    "details": [
+      "Reinforcement learning-based agent systems",
+      "Multi-agent coordination and interaction modeling",
+      "Self-learning adaptive AI systems",
+      "Emergent behavior in distributed systems",
+      "Decision-making in dynamic environments"
+    ],
+    "tags": [
+      "artificial intelligence",
+      "multi-agent systems",
+      "reinforcement learning",
+      "adaptive systems",
+      "machine learning",
+      "emergent behavior"
+    ]
+  },
+  {
+    "title": "Electromagnetics And RF System Modeling",
+    "company": "University Engineering Physics Labs",
+    "date": "2026",
+    "description": "Analysis and simulation of electromagnetic systems including RF circuits, wave propagation, and field interactions for high-frequency and power applications.",
+    "details": [
+      "Maxwell-based electromagnetic field analysis",
+      "RF circuit and transmission line modeling",
+      "Impedance matching and wave behavior studies",
+      "Electromagnetic interference (EMI/EMC) considerations",
+      "Simulation of field interactions in physical systems"
+    ],
+    "tags": [
+      "electromagnetics",
+      "RF systems",
+      "Maxwell equations",
+      "transmission lines",
+      "wave propagation",
+      "EMI",
+      "EMC"
+    ]
+  },
+  {
+    "title": "Control Systems And Physical Simulation",
+    "company": "University Engineering Simulation Labs",
+    "date": "2026",
+    "description": "Mathematical modeling and simulation of dynamic systems including motors, solenoids, and energy systems using control theory and numerical simulation tools.",
+    "details": [
+      "Motor control system modeling and simulation",
+      "State-space and transfer function analysis",
+      "Electromechanical system dynamics",
+      "Real-time control strategy development",
+      "Simulation of physical and energy systems"
+    ],
+    "tags": [
+      "control systems",
+      "simulation",
+      "dynamic systems",
+      "MATLAB",
+      "modeling",
+      "motor control",
+      "system dynamics"
+    ]
+  }
+]

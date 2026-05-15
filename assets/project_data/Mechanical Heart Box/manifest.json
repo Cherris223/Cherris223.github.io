@@ -1,0 +1,9 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "image-1.webp",
+      "caption": "Exploded View"
+    }
+  ]
+}

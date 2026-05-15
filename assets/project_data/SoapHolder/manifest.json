@@ -1,0 +1,19 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "V1.webp",
+      "caption": "V1"
+    },
+    {
+      "type": "image",
+      "src": "V2-Bottom.webp",
+      "caption": "V2 Bottom"
+    },
+    {
+      "type": "image",
+      "src": "V2-Top.webp",
+      "caption": "V2 Top"
+    }
+  ]
+}

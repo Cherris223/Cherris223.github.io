@@ -1,0 +1,29 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "image-1.webp",
+      "caption": "Outer Sleave Brace"
+    },
+    {
+      "type": "image",
+      "src": "image-2.webp",
+      "caption": "Outer Sleave with Brace"
+    },
+    {
+      "type": "image",
+      "src": "image-3.webp",
+      "caption": "Inner Sleave and Generator Adapter"
+    },
+    {
+      "type": "image",
+      "src": "image-4.webp",
+      "caption": "Airfoil"
+    },
+    {
+      "type": "image",
+      "src": "image.webp",
+      "caption": "Nose Cone"
+    }
+  ]
+}

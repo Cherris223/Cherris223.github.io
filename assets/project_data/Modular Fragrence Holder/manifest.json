@@ -1,0 +1,19 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "CAD_1.png",
+      "caption": "Holder CAD"
+    },
+    {
+      "type": "image",
+      "src": "CAD_2.png",
+      "caption": "Stand CAD"
+    },
+    {
+      "type": "image",
+      "src": "Prod_Disp_2.jpg",
+      "caption": "Prod Disp 2"
+    }
+  ]
+}

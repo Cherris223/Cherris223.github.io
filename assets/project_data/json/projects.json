@@ -1,0 +1,187 @@
+[
+  {
+    "id": "\"Grumpy Gauge\"",
+    "title": "Sentiment Gauge Toy",
+    "description": "A playful mechanical or digital indicator that visually represents mood or sentiment changes, designed as an interactive desk toy.",
+    "image": "assets/project_data/Grumpy Gauge/projecticon.png",
+    "tags": ["mechanical", "product-design", "hci"]
+  },
+  {
+    "id": "Bearing Puzzle",
+    "title": "Bearing Assembly Puzzle Design",
+    "description": "A mechanical puzzle that demonstrates bearing assembly and alignment principles through hands-on interaction.",
+    "image": "assets/project_data/Bearing Puzzle/projecticon.png",
+    "tags": ["mechanical", "mechanisms", "product-design"]
+  },
+  {
+    "id": "Boeing Autonomous Vehicle",
+    "title": "Autonomous Vehicle System (Boeing)",
+    "description": "This project focuses on integrating autonomous navigation and control systems into a stock buggy. The vehicle will be able to perform assigned tasks autonomously, while still supporting a manual drive mode. Project Sponsered by, and presented to, senior engineers at Boeing. \nLearn More at https://www.sce.nau.edu/capstone/projects/EE/2026/BoeingBuggy/",
+    "image": "assets/project_data/Boeing Autonomous Vehicle/projecticon.png",
+    "details": ["Multi-diciplinary Project Lead", "Sensor Mounts CAD", "Sensors Design", "Sensors Programming", "Control System Programs", "Presented to Senior Engineering Staff at Boeing"],
+    "tags": ["robotics", "autonomous systems", "ai", "embedded", "control systems", "software"]
+  },
+  {
+    "id": "Centrafugal Pump",
+    "title": "Centrifugal Pump Design",
+    "description": "A fluid dynamics engineering design of a centrifugal pump optimized for efficient liquid transfer using rotational energy.",
+    "image": "assets/project_data/Centrafugal Pump/projecticon.png",
+    "tags": ["mechanical", "fluid", "energy"]
+  },
+  {
+    "id": "Custom Cmos IC",
+    "title": "Custom CMOS Integrated Circuit Design",
+    "description": "Design and layout of a custom CMOS integrated circuit for specialized electronic functionality and optimization.",
+    "image": "assets/project_data/Custom Cmos IC/projecticon.png",
+    "tags": ["pcb", "microelectronics", "semiconductors"]
+  },
+  {
+    "id": "Design of Full 8-bit ALU and Proccessor",
+    "title": "8-bit ALU and Processor Architecture Design",
+    "description": "Design and simulation of an 8-bit arithmetic logic unit and processor architecture demonstrating basic computing operations.",
+    "image": "assets/project_data/Design of Full 8-bit ALU and Proccessor/projecticon.png",
+    "tags": ["embedded", "digital-design", "processor", "software"]
+  },
+  {
+    "id": "Direct Torque Control Simulation",
+    "title": "Direct Torque Control (DTC) Motor Simulation",
+    "description": "A simulation of direct torque control techniques used in motor drive systems for precise torque and speed regulation.",
+    "image": "assets/project_data/Direct Torque Control Simulation/projecticon.png",
+    "tags": ["power electronics", "robotics", "simulation", "motor-control"]
+  },
+  {
+    "id": "Feasability Study on Peiezoelectric power generation",
+    "title": "Feasibility Study of Piezoelectric Power Generation",
+    "description": "An engineering study evaluating the potential of harvesting electrical energy from mechanical stress using piezoelectric materials.",
+    "image": "assets/project_data/Feasability Study on Peiezoelectric power generation/projecticon.png",
+    "tags": ["power electronics", "energy", "mechanical"]
+  },
+  {
+    "id": "Field Oriented Control Simulation",
+    "title": "Field-Oriented Control (FOC) Simulation Model",
+    "description": "A simulation model implementing field-oriented control techniques for efficient and precise motor control.",
+    "image": "assets/project_data/Field Oriented Control Simulation/projecticon.png",
+    "tags": ["power electronics", "robotics", "simulation", "motor-control"]
+  },
+  {
+    "id": "FramedClock",
+    "title": "Framed Mechanical Clock Design",
+    "description": "A decorative mechanical clock integrated into a framed structure emphasizing both function and aesthetics.",
+    "image": "assets/project_data/FramedClock/projecticon.png",
+    "tags": ["mechanical", "kinematics", "mechanisms"]
+  },
+  {
+    "id": "Gear Fidget Toy",
+    "title": "Gear Fidget Toy Mechanism",
+    "description": "A compact mechanical fidget device using interlocking gears for tactile interaction and stress relief.",
+    "image": "assets/project_data/Gear Fidget Toy/projecticon.png",
+    "tags": ["mechanical", "mechanisms", "product-design"]
+  },
+  {
+    "id": "GreenSense Pro",
+    "title": "GreenSense Pro Environmental Monitoring System",
+    "description": "An IoT-based environmental monitoring system that tracks air quality, temperature, and humidity in real time.",
+    "image": "assets/project_data/GreenSense Pro/projecticon.png",
+    "tags": ["embedded", "iot", "sensors", "software"]
+  },
+  {
+    "id": "Hydroponics",
+    "title": "Assorted Hydroponics Cultivation Systems",
+    "description": "A collection of soil-free hydroponic systems designed to optimize plant growth using nutrient-rich water solutions.",
+    "image": "assets/project_data/Hydroponics/projecticon.png",
+    "tags": ["mechanical", "fluid", "sustainability"]
+  },
+  {
+    "id": "Low-Windspeed Wind Turbine",
+    "title": "Low-Wind-Speed Wind Turbine Design",
+    "description": "A renewable energy project focused on designing wind turbines optimized for low wind conditions.",
+    "image": "assets/project_data/Low-Windspeed Wind Turbine/projecticon.png",
+    "tags": ["mechanical", "energy", "power electronics"]
+  },
+  {
+    "id": "Magnetic Waredrobe Lock",
+    "title": "Magnetic Wardrobe Lock System",
+    "description": "A secure locking mechanism using magnetic force for smooth and keyless wardrobe access control.",
+    "image": "assets/project_data/Magnetic Waredrobe Lock/projecticon.png",
+    "tags": ["mechanical", "mechatronics", "mechanisms"]
+  },
+  {
+    "id": "Mechanical Heart Box",
+    "title": "Mechanical Heart-Themed Kinetic Box",
+    "description": "A kinetic art box featuring mechanically driven heart-inspired motion for aesthetic and symbolic expression.",
+    "image": "assets/project_data/Mechanical Heart Box/projecticon.png",
+    "tags": ["mechanical", "kinematics", "product-design"]
+  },
+  {
+    "id": "Misc Holders",
+    "title": "Modular Utility Holder Collection",
+    "description": "A set of customizable 3D-printed or manufactured holders designed for organizing various tools and items.",
+    "image": "assets/project_data/Misc Holders/projecticon.png",
+    "tags": ["mechanical", "cad", "manufacturing"]
+  },
+  {
+    "id": "Modular Fragrence Holder",
+    "title": "Modular Fragrance Holder System",
+    "description": "A modular design system for organizing and displaying fragrance bottles efficiently and elegantly.",
+    "image": "assets/project_data/Modular Fragrence Holder/projecticon.png",
+    "tags": ["mechanical", "cad", "ergonomics"]
+  },
+  {
+    "id": "Pliers-Holder",
+    "title": "Ergonomic Pliers Holder Design",
+    "description": "A workshop storage solution designed to securely hold and organize pliers for easy access and safety.",
+    "image": "assets/project_data/Pliers-Holder/projecticon.png",
+    "tags": ["mechanical", "ergonomics", "manufacturing"]
+  },
+  {
+    "id": "Quantum-Safe Cryptography Method",
+    "title": "Quantum-Safe Cryptographic Methodology",
+    "description": "A study and implementation of cryptographic techniques resistant to attacks from quantum computing systems. Learn More at https://canva.link/xhoxmekba70zs5o",
+    "image": "assets/project_data/Quantum-Safe Cryptography Method/projecticon.png",
+    "tags": ["security", "cryptography", "software"]
+  },
+  {
+    "id": "Recycling Projects",
+    "title": "Sustainable Recycling Engineering Projects",
+    "description": "A collection of engineering initiatives focused on recycling materials and promoting environmental sustainability.",
+    "image": "assets/project_data/Recycling Projects/projecticon.png",
+    "tags": ["mechanical", "sustainability", "civil"]
+  },
+  {
+    "id": "Self-Learning AI",
+    "title": "Self-Learning Artificial Intelligence Hexibot",
+    "description": "An adaptive AI system capable of learning from interactions and improving performance over time. Resulted in co-authored paper published in the Journal of Open University Robotics.",
+    "image": "assets/project_data/Self-Learning AI/projecticon.png",
+    "details": ["Co-Authored Paper", "Assisted development of AI Model"],
+    "tags": ["ai", "machine learning", "robotics", "autonomous systems"]
+  },
+  {
+    "id": "ShowerCaddy",
+    "title": "Multi-Functional Shower Caddy Design",
+    "description": "A bathroom product designed to efficiently store toiletries in wet environments.",
+    "image": "assets/project_data/ShowerCaddy/projecticon.png",
+    "tags": ["mechanical", "product-design", "ergonomics"]
+  },
+  {
+    "id": "SoapHolder",
+    "title": "Hygienic Soap Holder Design",
+    "description": "A drainage-optimized soap holder designed to prevent water accumulation and extend soap lifespan.",
+    "image": "assets/project_data/SoapHolder/projecticon.png",
+    "tags": ["mechanical", "fluid", "product-design"]
+  },
+  {
+    "id": "Solar Panel Array with Battery Array Simulation",
+    "title": "Solar Panel and Battery Array Simulation System",
+    "description": "A simulation of integrated solar panels and battery storage systems for energy optimization and management.",
+    "image": "assets/project_data/Solar Panel Array with Battery Array Simulation/projecticon.png",
+    "details": ["Array Model", "DC Link", "Battery Model", "MPPT Model", "DC/DC Model", "DC/AC Model"],
+    "tags": ["power electronics", "simulation", "energy", "software"]
+  },
+  {
+    "id": "VR Headset Holder",
+    "title": "VR Headset Mounting Wall-Mount Design",
+    "description": "A ergonomic Wall-Mount designed to store and display VR headsets safely.",
+    "image": "assets/project_data/VR Headset Holder/projecticon.png",
+    "tags": ["mechanical", "ergonomics", "product-design"]
+  }
+]

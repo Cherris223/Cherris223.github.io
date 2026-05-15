@@ -1,0 +1,14 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "CAD.png",
+      "caption": "Support CAD"
+    },
+    {
+      "type": "image",
+      "src": "Prod_Disp_1.jpg",
+      "caption": "Prod Disp 1"
+    }
+  ]
+}

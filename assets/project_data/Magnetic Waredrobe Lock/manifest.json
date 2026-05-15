@@ -1,0 +1,19 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "image-1.webp",
+      "caption": "Unlocked Assembly"
+    },
+    {
+      "type": "image",
+      "src": "image-3.webp",
+      "caption": "Magnet"
+    },
+    {
+      "type": "image",
+      "src": "image.webp",
+      "caption": "Exploded View"
+    }
+  ]
+}
