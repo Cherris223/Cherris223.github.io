@@ -1,0 +1,24 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "1x1 Static Basin.webp",
+      "caption": "1X1 Static Basin"
+    },
+    {
+      "type": "image",
+      "src": "ExplodedGearpump.webp",
+      "caption": "Exploded Gearpump"
+    },
+    {
+      "type": "image",
+      "src": "GearPump.webp",
+      "caption": "Gearpump"
+    },
+    {
+      "type": "image",
+      "src": "GearpumpBasin.webp",
+      "caption": "Gearpump Basin"
+    }
+  ]
+}

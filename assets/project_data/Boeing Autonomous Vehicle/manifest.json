@@ -1,0 +1,54 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "Camera Holder.webp",
+      "caption": "Camera Holder"
+    },
+    {
+      "type": "pdf",
+      "src": "Final Product Report.pdf",
+      "title": "Final Product Report"
+    },
+    {
+      "type": "image",
+      "src": "IMU Holder.webp",
+      "caption": "Imu Holder"
+    },
+    {
+      "type": "pdf",
+      "src": "InitialTestingReport.pdf",
+      "title": "Initialtestingreport"
+    },
+    {
+      "type": "image",
+      "src": "LIDARSweepHolder1.webp",
+      "caption": "Lidarsweepholder1"
+    },
+    {
+      "type": "image",
+      "src": "LIDARSweepHolder2.webp",
+      "caption": "Lidarsweepholder2"
+    },
+    {
+      "type": "image",
+      "src": "LIDARSweepSoftwareBenchmarker.webp",
+      "caption": "Lidarsweepsoftwarebenchmarker"
+    },
+    {
+      "type": "pdf",
+      "src": "Proposal.pdf",
+      "title": "Proposal"
+    },
+    {
+      "type": "image",
+      "src": "Speedometer Magnet Holder.webp",
+      "caption": "Speedometer Magnet Holder"
+    },
+    {
+      "type": "pdf",
+      "src": "Testing Report 2.pdf",
+      "title": "Testing Report 2"
+    }
+  ]
+}

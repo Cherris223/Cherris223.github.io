@@ -1,0 +1,29 @@
+{
+  "gallery": [
+    {
+      "type": "image",
+      "src": "FastestDelay.png",
+      "caption": "Fastest delay"
+    },
+    {
+      "type": "image",
+      "src": "Secton5-2.png",
+      "caption": "Simulation Results"
+    },
+    {
+      "type": "image",
+      "src": "SlowestDelay.png",
+      "caption": "Slowest delay"
+    },
+    {
+      "type": "image",
+      "src": "section2.png",
+      "caption": "Zoombed In Cmos Circuit"
+    },
+    {
+      "type": "image",
+      "src": "section3.png",
+      "caption": "IC Circuit"
+    }
+  ]
+}

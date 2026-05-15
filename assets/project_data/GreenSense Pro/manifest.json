@@ -1,0 +1,14 @@
+{
+  "gallery": [
+    {
+      "type": "pdf",
+      "src": "GreenSense Pro Development Overview.pdf",
+      "title": "Greensense Pro Development Overview"
+    },
+    {
+      "type": "pdf",
+      "src": "Project Proposal.pdf",
+      "title": "Project Proposal"
+    }
+  ]
+}
