@@ -21,10 +21,15 @@ document.addEventListener("DOMContentLoaded", () => {
     status.style.color = "white";
 
     try {
-      const response = await fetch(SCRIPT_URL, {
-        method: "POST",
-        body: JSON.stringify({ name, email, message }),
-      });
+      const formData = new URLSearchParams();
+        formData.append("name", name);
+        formData.append("email", email);
+        formData.append("message", message);
+
+        const response = await fetch(SCRIPT_URL, {
+          method: "POST",
+          body: formData
+        });
 
       const result = await response.json();
 
